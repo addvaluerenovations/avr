@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Value Group | Auckland Building Specialists — Renovations, Restoration & Makeover</title>
+<meta name="description" content="The Add Value Group — three specialist Auckland building brands. Design &amp; build renovations, insurance reinstatement, and pre-sale home makeovers. 500+ homes since 2014. Registered Master Builder.">
+<link rel="canonical" href="https://avr.nz/">
+<meta property="og:site_name" content="Add Value Group">
+<meta property="og:title" content="Add Value Group | Auckland Building Specialists">
+<meta property="og:description" content="Three specialist Auckland building brands. 500+ homes since 2014. Registered Master Builder. House of the Year Gold 2025.">
+<meta property="og:url" content="https://avr.nz/">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d1d1f'/%3E%3Ctext x='32' y='44' font-family='Helvetica,Arial,sans-serif' font-size='34' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Add Value Group",
+  "url": "https://avr.nz/",
+  "description": "Auckland building group: design & build renovations, insurance reinstatement, and pre-sale home makeovers. 500+ homes since 2014.",
+  "areaServed": "Auckland, New Zealand",
+  "foundingDate": "2014",
+  "award": "Registered Master Builders House of the Year Gold 2025",
+  "subOrganization": [
+    {"@type": "Organization", "name": "Add Value Renovations", "url": "https://www.addvaluerenovations.co.nz/"},
+    {"@type": "Organization", "name": "Add Value Restoration", "url": "https://www.addvaluerestoration.co.nz/"},
+    {"@type": "Organization", "name": "Add Value Makeover", "url": "https://www.addvaluemakeover.co.nz/"}
+  ]
+}
+</script>
+<style>
+  :root{
+    --ink:#1d1d1f; --sub:#6e6e73; --grey:#f5f5f7; --white:#fff; --line:#d2d2d7; --card:#fbfbfd;
+    /* brand worlds */
+    --navy:#03152D; --navy-2:#061534; --gold:#CEB678; --gold-deep:#B28E32;
+    --blue:#0071e3; --blue-text:#0066cc;
+    --m-cream:#fbf3e6; --m-paper:#fffaf0; --m-green:#2f9e7c; --m-green-deep:#1d7a5c; --m-honey:#edab43; --m-ink:#21384a;
+    --r:26px;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font);background:var(--white);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{text-decoration:none;color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+
+  /* Nav */
+  nav{position:sticky;top:0;z-index:50;background:rgba(251,251,253,.82);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:52px}
+  .nav-brand{font-size:.95rem;font-weight:600;letter-spacing:-.01em}
+  .nav-links{display:flex;gap:26px;font-size:.82rem;color:var(--sub)}
+  .nav-links a:hover{color:var(--ink)}
+  @media(max-width:560px){.nav-links{gap:16px;font-size:.78rem}}
+
+  /* Hero */
+  .hero{padding:110px 0 86px;text-align:center;position:relative;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;pointer-events:none}
+  .blob{position:absolute;width:46vw;height:46vw;max-width:560px;max-height:560px;border-radius:50%;filter:blur(90px);opacity:.30}
+  .blob.b1{background:#CEB678;top:-18%;left:-10%;animation:drift1 16s ease-in-out infinite alternate}
+  .blob.b2{background:#7db8f5;top:-8%;right:-12%;animation:drift2 19s ease-in-out infinite alternate}
+  .blob.b3{background:#7fd6b8;bottom:-34%;left:32%;animation:drift3 22s ease-in-out infinite alternate}
+  @keyframes drift1{to{transform:translate(7vw,5vh) scale(1.12)}}
+  @keyframes drift2{to{transform:translate(-6vw,7vh) scale(1.08)}}
+  @keyframes drift3{to{transform:translate(-5vw,-6vh) scale(1.15)}}
+  .hero .wrap{position:relative}
+  .hero h1{font-size:clamp(2.5rem,6.5vw,4.2rem);font-weight:700;letter-spacing:-.025em;line-height:1.08;max-width:880px;margin:0 auto}
+  .rotator{display:block;position:relative;height:1.18em;overflow:hidden}
+  .rotator span{position:absolute;left:0;right:0;top:0;opacity:0;transform:translateY(60%);transition:opacity .55s ease,transform .55s cubic-bezier(.2,.7,.2,1)}
+  .rotator span.on{opacity:1;transform:none}
+  .rotator span.off{opacity:0;transform:translateY(-60%)}
+  .rotator .w-reno{color:var(--gold-deep)}
+  .rotator .w-resto{color:var(--blue)}
+  .rotator .w-make{color:var(--m-green-deep)}
+  .hero p{font-size:clamp(1.1rem,2vw,1.4rem);color:var(--sub);max-width:620px;margin:24px auto 0;font-weight:400;letter-spacing:-.01em}
+  .hero .down{display:inline-block;margin-top:36px;font-size:1rem;color:var(--blue-text);font-weight:500}
+  .hero .down:hover{text-decoration:underline}
+  .hero .down .arr{display:inline-block;animation:nudge 1.8s ease-in-out infinite}
+  @keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+  .hero-in{opacity:0;transform:translateY(16px);animation:heroIn .8s cubic-bezier(.2,.7,.2,1) forwards}
+  .hero-in.d1{animation-delay:.05s}.hero-in.d2{animation-delay:.2s}.hero-in.d3{animation-delay:.35s}
+  @keyframes heroIn{to{opacity:1;transform:none}}
+
+  /* Stats */
+  .stats{background:var(--grey);padding:58px 0}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:34px;text-align:center}
+  .stat .num{font-size:clamp(1.7rem,3vw,2.3rem);font-weight:700;letter-spacing:-.02em}
+  .stat .lbl{font-size:.82rem;color:var(--sub);margin-top:4px}
+  .stats .note{display:block;text-align:center;font-size:.78rem;color:var(--sub);margin-top:38px}
+
+  /* Tiles */
+  .tiles{padding:88px 0}
+  .tiles-head{text-align:center;max-width:640px;margin:0 auto 52px}
+  .tiles-head h2{font-size:clamp(1.9rem,4vw,2.8rem);font-weight:700;letter-spacing:-.02em}
+  .tiles-head p{color:var(--sub);font-size:1.08rem;margin-top:14px}
+  .tile{border-radius:var(--r);padding:clamp(40px,6vw,72px);margin-bottom:22px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;overflow:hidden;position:relative;transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}
+  .tile:hover{transform:scale(1.008);box-shadow:0 24px 60px -30px rgba(0,0,0,.35)}
+  @media(max-width:760px){.tile{grid-template-columns:1fr;gap:28px;text-align:center}}
+  .tile .kicker{font-size:.85rem;font-weight:600;letter-spacing:.02em;text-transform:none;margin-bottom:10px}
+  .tile h3{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:700;letter-spacing:-.02em;line-height:1.12}
+  .tile .lead{font-size:1.08rem;margin-top:14px;max-width:46ch}
+  @media(max-width:760px){.tile .lead{margin-left:auto;margin-right:auto}}
+  .tile .points{list-style:none;margin-top:22px;display:grid;gap:10px;font-size:.95rem}
+  .tile .points li{display:flex;gap:10px;align-items:baseline}
+  @media(max-width:760px){.tile .points li{justify-content:center}}
+  .tile .points li::before{content:"—";flex:none}
+  .pill{display:inline-block;margin-top:30px;padding:13px 26px;border-radius:980px;font-size:.95rem;font-weight:500;transition:opacity .2s,transform .2s}
+  .pill:hover{opacity:.88}
+  .pill:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+  .tile-mark{justify-self:center;width:clamp(120px,16vw,170px);height:clamp(120px,16vw,170px);border-radius:32px;display:flex;align-items:center;justify-content:center;font-size:clamp(3rem,7vw,4.4rem);font-weight:700}
+
+  /* Renovations — navy & gold world */
+  .tile.reno{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff}
+  .tile.reno .kicker{color:var(--gold)}
+  .tile.reno .lead,.tile.reno .points{color:rgba(255,255,255,.82)}
+  .tile.reno .pill{background:var(--gold);color:var(--navy)}
+  .tile.reno .tile-mark{background:rgba(206,182,120,.12);border:1px solid rgba(206,182,120,.4);color:var(--gold)}
+
+  /* Restoration — clean white & blue world */
+  .tile.resto{background:var(--card);border:1px solid var(--line);color:var(--ink)}
+  .tile.resto .kicker{color:var(--blue-text)}
+  .tile.resto .lead,.tile.resto .points{color:var(--sub)}
+  .tile.resto .pill{background:var(--blue);color:#fff}
+  .tile.resto .tile-mark{background:#eef4fb;border:1px solid #d8e6f5;color:var(--blue)}
+
+  /* Makeover — cream & green world */
+  .tile.makeover{background:linear-gradient(160deg,var(--m-cream) 0%,var(--m-paper) 100%);color:var(--m-ink)}
+  .tile.makeover .kicker{color:var(--m-green-deep)}
+  .tile.makeover .lead,.tile.makeover .points{color:#3a5566}
+  .tile.makeover .pill{background:var(--m-green-deep);color:#fff}
+  .tile.makeover .tile-mark{background:rgba(47,158,124,.1);border:1px solid rgba(47,158,124,.35);color:var(--m-green-deep)}
+
+  /* Philosophy */
+  .philosophy{background:var(--ink);color:#fff;padding:96px 0;text-align:center}
+  .philosophy .kicker{font-size:.9rem;font-weight:600;color:#a1a1a6;margin-bottom:14px}
+  .philosophy h2{font-size:clamp(1.9rem,4.2vw,3rem);font-weight:700;letter-spacing:-.02em;max-width:760px;margin:0 auto}
+  .philosophy p{color:#a1a1a6;font-size:1.1rem;max-width:600px;margin:20px auto 0}
+
+  /* Footer */
+  footer{background:var(--grey);padding:34px 0;font-size:.78rem;color:var(--sub)}
+  .foot-inner{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+  .foot-links a{margin-left:6px;padding:8px;display:inline-block;color:var(--sub)}
+  .foot-links a:hover{color:var(--ink)}
+  @media(max-width:640px){.foot-inner{flex-direction:column;text-align:center}.foot-links a{margin:0 6px}}
+
+  /* Reveal animation */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  .tile-mark{transition:transform .25s ease}
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    .tile{transition:none}
+    .blob,.hero .down .arr{animation:none}
+    .hero-in{animation:none;opacity:1;transform:none}
+    .rotator span{transition:none}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <div class="nav-brand">Add Value Group</div>
+    <div class="nav-links">
+      <a href="https://www.addvaluerenovations.co.nz/">Renovations</a>
+      <a href="https://www.addvaluerestoration.co.nz/">Restoration</a>
+      <a href="https://www.addvaluemakeover.co.nz/">Makeover</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  </div>
+  <div class="wrap">
+    <h1 class="hero-in d1">One group. Three builders.
+      <span class="rotator" aria-label="Renovations, insurance rebuilds, pre-sale makeovers">
+        <span class="w-reno on">Renovations.</span>
+        <span class="w-resto">Insurance rebuilds.</span>
+        <span class="w-make">Pre-sale makeovers.</span>
+      </span>
+    </h1>
+    <p class="hero-in d2">Different jobs, same standard — built properly, priced straight, no surprises.</p>
+    <a class="down hero-in d3" href="#brands">Find the right team for your job <span class="arr">↓</span></a>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat reveal"><div class="num" data-count="500" data-suffix="+">500+</div><div class="lbl">Auckland homes since 2014</div></div>
+      <div class="stat reveal"><div class="num">Gold</div><div class="lbl">House of the Year 2025</div></div>
+      <div class="stat reveal"><div class="num">RMB</div><div class="lbl">Registered Master Builder</div></div>
+      <div class="stat reveal"><div class="num">10-yr</div><div class="lbl">Master Build Guarantee</div></div>
+      <div class="stat reveal"><div class="num">LBP</div><div class="lbl">Licensed Building Practitioner</div></div>
+    </div>
+    <span class="note">Credentials held at Add Value Group level and backed on every job, across every brand.</span>
+  </div>
+</section>
+
+<section class="tiles" id="brands">
+  <div class="wrap">
+    <div class="tiles-head reveal">
+      <h2>Pick the team that fits the job.</h2>
+      <p>Each brand does one thing and does it well. Behind all three: the same group, the same crews' standards, the same guarantee.</p>
+    </div>
+
+    <a class="tile reno reveal" href="https://www.addvaluerenovations.co.nz/" aria-label="Add Value Renovations — design and build renovations">
+      <div>
+        <div class="kicker">Design &amp; Build Renovations</div>
+        <h3>Add Value Renovations</h3>
+        <p class="lead">Full home renovations, extensions, kitchens and bathrooms — designed, priced and built by one team, start to finish.</p>
+        <ul class="points">
+          <li>Fixed-price proposals, one point of contact</li>
+          <li>Kitchens, bathrooms, extensions, full homes</li>
+          <li>Award-winning design &amp; build</li>
+        </ul>
+        <span class="pill">Visit Renovations</span>
+      </div>
+      <div class="tile-mark" aria-hidden="true">R</div>
+    </a>
+
+    <a class="tile resto reveal" href="https://www.addvaluerestoration.co.nz/" aria-label="Add Value Restoration — insurance reinstatement builds">
+      <div>
+        <div class="kicker">Insurance Reinstatement</div>
+        <h3>Add Value Restoration</h3>
+        <p class="lead">Rebuilding Auckland homes after water, fire, storm and impact damage — managed end to end, tracked in real time.</p>
+        <ul class="points">
+          <li>Water, fire &amp; storm damage rebuilds</li>
+          <li>End-to-end project management</li>
+          <li>Live job tracking — everyone stays in the loop</li>
+        </ul>
+        <span class="pill">Visit Restoration</span>
+      </div>
+      <div class="tile-mark" aria-hidden="true">R</div>
+    </a>
+
+    <a class="tile makeover reveal" href="https://www.addvaluemakeover.co.nz/" aria-label="Add Value Makeover — pre-sale home makeovers">
+      <div>
+        <div class="kicker">Pre-Sale Home Makeovers</div>
+        <h3>Add Value Makeover</h3>
+        <p class="lead">Get a tired home sale-ready in weeks, not months. Fixed price, fixed timeline, one crew — spend only where it sells.</p>
+        <ul class="points">
+          <li>Paint, floors, kitchen &amp; bathroom refresh</li>
+          <li>Fixed price and timeline</li>
+          <li>For homeowners and real-estate agents</li>
+        </ul>
+        <span class="pill">Visit Makeover</span>
+      </div>
+      <div class="tile-mark" aria-hidden="true">M</div>
+    </a>
+
+  </div>
+</section>
+
+<section class="philosophy">
+  <div class="wrap reveal">
+    <div class="kicker">How we work</div>
+    <h2>AI in service of people.</h2>
+    <p>Smart systems run behind every job — accurate costing, automatic updates, live portals — so our people can focus on building well and keeping you in the loop. No chasing, no surprises, no nightly paperwork.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div>© 2026 Add Value Group · Auckland, New Zealand</div>
+    <div class="foot-links">
+      <a href="https://www.addvaluerenovations.co.nz/">Renovations</a>
+      <a href="https://www.addvaluerestoration.co.nz/">Restoration</a>
+      <a href="https://www.addvaluemakeover.co.nz/">Makeover</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Scroll reveal
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // Rotating hero word
+  const words = document.querySelectorAll('.rotator span');
+  if(words.length && !reduced){
+    let i = 0;
+    setInterval(()=>{
+      words[i].classList.remove('on'); words[i].classList.add('off');
+      const prev = words[i];
+      setTimeout(()=>prev.classList.remove('off'), 600);
+      i = (i+1) % words.length;
+      words[i].classList.add('on');
+    }, 2600);
+  }
+
+  // Count-up stats
+  const counters = document.querySelectorAll('[data-count]');
+  const cio = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(!e.isIntersecting) return;
+      cio.unobserve(e.target);
+      if(reduced) return;
+      const el = e.target, target = +el.dataset.count, suffix = el.dataset.suffix||'';
+      const t0 = performance.now(), dur = 1400;
+      (function tick(t){
+        const p = Math.min((t-t0)/dur, 1), eased = 1-Math.pow(1-p,3);
+        el.textContent = Math.round(target*eased) + suffix;
+        if(p<1) requestAnimationFrame(tick);
+      })(t0);
+    });
+  },{threshold:.5});
+  counters.forEach(el=>cio.observe(el));
+
+  // Tile pointer parallax (mouse only)
+  if(matchMedia('(pointer:fine)').matches && !reduced){
+    document.querySelectorAll('.tile').forEach(tile=>{
+      const mark = tile.querySelector('.tile-mark');
+      if(!mark) return;
+      tile.addEventListener('pointermove', ev=>{
+        const r = tile.getBoundingClientRect();
+        const x = (ev.clientX - r.left)/r.width - .5, y = (ev.clientY - r.top)/r.height - .5;
+        mark.style.transform = `translate(${x*14}px, ${y*14}px) rotate(${x*3}deg)`;
+      });
+      tile.addEventListener('pointerleave', ()=>{ mark.style.transform = ''; });
+    });
+  }
+</script>
+
+</body>
+</html>
