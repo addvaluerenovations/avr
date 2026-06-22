@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Liu;Simon;;;
+FN:Simon Liu
+ORG:Add Value Renovations
+TITLE:Founder & Director
+TEL;TYPE=CELL,VOICE:+64204560007
+EMAIL;TYPE=WORK:simon@addvaluerenovations.co.nz
+URL:https://addvaluerenovations.co.nz
+ADR;TYPE=WORK:;;110 Carlton Gore Road;Newmarket;Auckland;1023;New Zealand
+END:VCARD
