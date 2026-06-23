@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Add Value Group | Auckland Building Specialists — Renovations, Restoration & Makeover</title>
-<meta name="description" content="The Add Value Group — three specialist Auckland building brands. Design &amp; build renovations, insurance reinstatement, and pre-sale home makeovers. 500+ homes since 2014. Registered Master Builder.">
+<meta name="description" content="The Add Value Group — four specialist Auckland building brands. Design &amp; build renovations, insurance reinstatement, pre-sale home makeovers, and fast bathroom renovations. 500+ homes since 2014. Registered Master Builder.">
 <link rel="canonical" href="https://avr.nz/">
 <meta property="og:site_name" content="Add Value Group">
 <meta property="og:title" content="Add Value Group | Auckland Building Specialists">
-<meta property="og:description" content="Three specialist Auckland building brands. 500+ homes since 2014. Registered Master Builder. House of the Year Gold 2025.">
+<meta property="og:description" content="Four specialist Auckland building brands. 500+ homes since 2014. Registered Master Builder. House of the Year Gold 2025.">
 <meta property="og:url" content="https://avr.nz/">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d1d1f'/%3E%3Ctext x='32' y='44' font-family='Helvetica,Arial,sans-serif' font-size='34' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
@@ -18,14 +18,15 @@
   "@type": "Organization",
   "name": "Add Value Group",
   "url": "https://avr.nz/",
-  "description": "Auckland building group: design & build renovations, insurance reinstatement, and pre-sale home makeovers. 500+ homes since 2014.",
+  "description": "Auckland building group: design & build renovations, insurance reinstatement, pre-sale home makeovers, and fast bathroom renovations. 500+ homes since 2014.",
   "areaServed": "Auckland, New Zealand",
   "foundingDate": "2014",
   "award": "Registered Master Builders House of the Year Gold 2025",
   "subOrganization": [
     {"@type": "Organization", "name": "Add Value Renovations", "url": "https://www.addvaluerenovations.co.nz/"},
     {"@type": "Organization", "name": "Add Value Restoration", "url": "https://www.addvaluerestoration.co.nz/"},
-    {"@type": "Organization", "name": "Add Value Makeover", "url": "https://www.addvaluemakeover.co.nz/"}
+    {"@type": "Organization", "name": "Add Value Makeover", "url": "https://www.addvaluemakeover.co.nz/"},
+    {"@type": "Organization", "name": "Weekly Bathrooms", "url": "https://www.weeklybathrooms.co.nz/"}
   ]
 }
 </script>
@@ -36,6 +37,7 @@
     --navy:#03152D; --navy-2:#061534; --gold:#CEB678; --gold-deep:#B28E32;
     --blue:#0071e3; --blue-text:#0066cc;
     --m-cream:#fbf3e6; --m-paper:#fffaf0; --m-green:#2f9e7c; --m-green-deep:#1d7a5c; --m-honey:#edab43; --m-ink:#21384a;
+    --teal:#063C46; --teal-2:#0A5560; --cyan:#34D7E6; --cyan-deep:#0E9FB0;
     --r:26px;
     --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   }
@@ -51,7 +53,7 @@
   .nav-brand{font-size:.95rem;font-weight:600;letter-spacing:-.01em}
   .nav-links{display:flex;gap:26px;font-size:.82rem;color:var(--sub)}
   .nav-links a:hover{color:var(--ink)}
-  @media(max-width:560px){.nav-links{gap:16px;font-size:.78rem}}
+  @media(max-width:560px){.nav-links{gap:14px;font-size:.76rem;min-width:0;overflow-x:auto;white-space:nowrap;-ms-overflow-style:none;scrollbar-width:none}.nav-links::-webkit-scrollbar{display:none}}
 
   /* Hero */
   .hero{padding:110px 0 86px;text-align:center;position:relative;overflow:hidden}
@@ -72,6 +74,7 @@
   .rotator .w-reno{color:var(--gold-deep)}
   .rotator .w-resto{color:var(--blue)}
   .rotator .w-make{color:var(--m-green-deep)}
+  .rotator .w-weekly{color:var(--cyan-deep)}
   .hero p{font-size:clamp(1.1rem,2vw,1.4rem);color:var(--sub);max-width:620px;margin:24px auto 0;font-weight:400;letter-spacing:-.01em}
   .hero .down{display:inline-block;margin-top:36px;font-size:1rem;color:var(--blue-text);font-weight:500}
   .hero .down:hover{text-decoration:underline}
@@ -130,6 +133,13 @@
   .tile.makeover .pill{background:var(--m-green-deep);color:#fff}
   .tile.makeover .tile-mark{background:rgba(47,158,124,.1);border:1px solid rgba(47,158,124,.35);color:var(--m-green-deep)}
 
+  /* Weekly Bathrooms — electric teal world */
+  .tile.weekly{background:linear-gradient(160deg,var(--teal) 0%,var(--teal-2) 100%);color:#fff}
+  .tile.weekly .kicker{color:var(--cyan)}
+  .tile.weekly .lead,.tile.weekly .points{color:rgba(255,255,255,.84)}
+  .tile.weekly .pill{background:var(--cyan);color:#04323a}
+  .tile.weekly .tile-mark{background:rgba(52,215,230,.12);border:1px solid rgba(52,215,230,.4);color:var(--cyan)}
+
   /* Philosophy */
   .philosophy{background:var(--ink);color:#fff;padding:96px 0;text-align:center}
   .philosophy .kicker{font-size:.9rem;font-weight:600;color:#a1a1a6;margin-bottom:14px}
@@ -166,6 +176,7 @@
       <a href="https://www.addvaluerenovations.co.nz/">Renovations</a>
       <a href="https://www.addvaluerestoration.co.nz/">Restoration</a>
       <a href="https://www.addvaluemakeover.co.nz/">Makeover</a>
+      <a href="https://www.weeklybathrooms.co.nz/">Bathrooms</a>
       <a href="contact.html">Contact</a>
     </div>
   </div>
@@ -177,10 +188,11 @@
   </div>
   <div class="wrap">
     <h1 class="hero-in d1">One group. Three builders.
-      <span class="rotator" aria-label="Renovations, insurance rebuilds, pre-sale makeovers">
+      <span class="rotator" aria-label="Renovations, insurance rebuilds, pre-sale makeovers, weekly bathrooms">
         <span class="w-reno on">Renovations.</span>
         <span class="w-resto">Insurance rebuilds.</span>
         <span class="w-make">Pre-sale makeovers.</span>
+        <span class="w-weekly">Weekly bathrooms.</span>
       </span>
     </h1>
     <p class="hero-in d2">Different jobs, same standard — built properly, priced straight, no surprises.</p>
@@ -205,7 +217,7 @@
   <div class="wrap">
     <div class="tiles-head reveal">
       <h2>Pick the team that fits the job.</h2>
-      <p>Each brand does one thing and does it well. Behind all three: the same group, the same crews' standards, the same guarantee.</p>
+      <p>Each brand does one thing and does it well. Behind all four: the same group, the same crews' standards, the same guarantee.</p>
     </div>
 
     <a class="tile reno reveal" href="https://www.addvaluerenovations.co.nz/" aria-label="Add Value Renovations — design and build renovations">
@@ -253,6 +265,21 @@
       <div class="tile-mark" aria-hidden="true">M</div>
     </a>
 
+    <a class="tile weekly reveal" href="https://www.weeklybathrooms.co.nz/" aria-label="Weekly Bathrooms — fast fixed-price bathroom renovations">
+      <div>
+        <div class="kicker">Fast Bathroom Renovations</div>
+        <h3>Weekly Bathrooms</h3>
+        <p class="lead">A brand-new bathroom in weeks, not months. Four fixed-scope packages with the price and finish date locked in writing — most done in one to four weeks.</p>
+        <ul class="points">
+          <li>Fixed price and completion date — in writing</li>
+          <li>Most bathrooms done in 1–4 weeks</li>
+          <li>No council consent needed (Tiers 1–3)</li>
+        </ul>
+        <span class="pill">Visit Weekly Bathrooms</span>
+      </div>
+      <div class="tile-mark" aria-hidden="true">W</div>
+    </a>
+
   </div>
 </section>
 
@@ -271,6 +298,7 @@
       <a href="https://www.addvaluerenovations.co.nz/">Renovations</a>
       <a href="https://www.addvaluerestoration.co.nz/">Restoration</a>
       <a href="https://www.addvaluemakeover.co.nz/">Makeover</a>
+      <a href="https://www.weeklybathrooms.co.nz/">Weekly Bathrooms</a>
       <a href="contact.html">Contact</a>
     </div>
   </div>
